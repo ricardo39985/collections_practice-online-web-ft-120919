@@ -36,3 +36,9 @@ def sum_array(array)
   array .each {|number| result+=number}
   result
 end
+
+def add_s(array)
+  results = array.map { |e| "#{e}s" }
+  results[1] = array[1]
+   puts results
+end
