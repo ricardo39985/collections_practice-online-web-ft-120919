@@ -40,5 +40,5 @@ end
 def add_s(array)
   results = array.map { |e| "#{e}s" }
   results[1] = array[1]
-   puts results
+  results
 end
